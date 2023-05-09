@@ -1,0 +1,131 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&family=Nunito+Sans:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f6f9fd;
+  height: 100vh;
+}
+
+/* navbar style here */
+.navbar {
+  height: 8px;
+  background-color: #1778f2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* container style here */
+.container {
+  display: block;
+  text-align: center;
+  background-color: #f6f9fd;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid rgb(233, 233, 233);
+}
+
+/* header style here */
+.container header {
+  font-size: 25px;
+  font-family: "Open-serif", sans-serif;
+  padding-top: 20px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+/* label style here */
+label {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  float: left;
+  padding-left: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+span {
+  color: red;
+}
+
+/* select style here */
+select {
+  height: 38px;
+  width: 70px;
+  padding: 5px;
+}
+
+/* input field style here */
+#fname {
+  width: 65%;
+}
+.input-field {
+  height: 25px;
+  width: 87%;
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px 0 20px 0;
+  font-family: "Comme", sans-serif;
+}
+/* gender style here */
+.gender {
+  float: left;
+  margin: 10px 0 20px 16px;
+}
+.gender-label {
+  padding: 10px;
+}
+
+/* upload file style here */
+input[type="file"] {
+  display: none;
+}
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dotted #002043;
+  height: 100px;
+  margin: 10px 16px 20px 16px;
+}
+.upload-file {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #1778f2;
+  color: white;
+}
+.browse {
+  color: black;
+}
+.drag-file {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+/* checkbox style here */
+input[type="checkbox"] {
+  float: left;
+  margin-left: 16px;
+}
+.terms {
+  padding-left: 8px;
+}
+
+/* submit button style here */
+input[type="submit"] {
+  border: none;
+  padding: 10px 30px;
+  background-color: #002043;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  font-family: "Comme", sans-serif;
+  font-size: 16px;
+  width: 90%;
+  margin: 30px 0;
+}

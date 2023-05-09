@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day 10</title>
+    <!--External css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar"></div>
+      <header>Registration Form</header>
+      <!-- form -->
+      <form action="#">
+        <!-- First name -->
+        <label for="fname" id="first">First Name <span>*</span>
+        </label>
+        <br>
+        <select name="title" id="title">
+          <option value="Mr.">Mr.</option>
+          <option value="Mrs.">Mrs.</option>
+          <option value="Ms.">Ms.</option>
+        </select>
+        <input type="text" id="fname" class="input-field" placeholder="Enter Your First Name" autofocus required>
+        <br>
+        <!-- Last name -->
+        <label for="lname" class="label-text">Last Name <span>*</span>
+        </label>
+        <br>
+        <input type="text" id="lname" class="input-field" placeholder="Enter Your Last Name" required>
+        <br>
+        <!-- Mobile number -->
+        <label for="number">Mobile Number <span>*</span>
+        </label>
+        <br>
+        <input type="number" id="number" class="input-field" placeholder="Enter Your 10 Digit Mobile Number" required>
+        <!-- Email -->
+        <label for="email">Email Id <span>*</span>
+        </label>
+        <input type="email" id="email" class="input-field" placeholder="Enter Your Valid Email Id" required>
+        <br>
+        <!-- Gender -->
+        <label>Gender <span>*</span>
+        </label>
+        <br>
+        <input type="radio" id="male" class="gender" name="gender" checked>
+        <label for="male" class="gender-label">Male</label>
+        <input type="radio" id="female" class="gender" name="gender">
+        <label for="female" class="gender-label">Female</label>
+        <input type="radio" id="other" class="gender" name="gender">
+        <label for="other" class="gender-label">Other</label>
+        <br>
+        <br>
+        <!-- Date of birth -->
+        <label for="dob">Date Of Birth <span>*</span>
+        </label>
+        <br>
+        <input type="date" id="dob" class="input-field" required>
+        <br>
+        <!-- File upload -->
+        <label for="upload">Upload Your File</label>
+        <br>
+        <div class="file">
+          <div class="drag-file">drag file here or</div>
+          <label for="upload" class="upload-file"> Browse</label>
+          <input type="file" id="upload">
+        </div>
+        <!-- Address -->
+        <label for="address">Address</label>
+        <br>
+        <input type="text" id="address" class="input-field" placeholder="Address line 1">
+        <input type="text" class="input-field" placeholder="Address line 2">
+        <!-- Password -->
+        <label for="password">Password <span>*</span>
+        </label>
+        <br>
+        <input type="password" id="password" class="input-field" placeholder="Enter Your Secret Password" required>
+        <br>
+        <!-- Confirm password -->
+        <label for="confirm-password">Confirm Password <span>*</span>
+        </label>
+        <br>
+        <input type="password" id="confirm-password" class="input-field" placeholder="Confirm Your Secret Password" required>
+        <br>
+        <!-- Checkbox -->
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="terms">I Agree to the terms & conditions</label>
+        <!-- Submit button -->
+        <input type="submit" value="Register Now">
+      </form>
+    </div>
+  </body>
+</html>
